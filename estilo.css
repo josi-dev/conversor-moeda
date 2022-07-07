@@ -1,0 +1,38 @@
+#box1{
+    background-color: #af15ff;
+    text-align: center;
+    border: 1px solid ;
+}
+#caixaprincipal{
+    border: 1px solid black;
+    margin: 0% 15% 0% 15%;
+    padding-bottom: 30px;
+}
+.texto{
+    margin: 16px;
+    color: #879ca3;
+}
+.selecao{
+    margin-left: 16px;
+}
+#select-bottom{
+    margin-bottom: 20px;
+    
+}
+#botao{
+    width: 80%;
+    border-radius: 12px;
+    font-size: 16px;
+}
+#valor{
+    width: 100%;
+}
+#box-valor{
+    margin: 0% 6% 0% 6%;
+}
+#box-Resultado{
+    border: 1px solid black;
+    
+    margin: 40px 20px 0px 20px;
+    text-align: center;
+}
