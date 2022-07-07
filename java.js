@@ -12,7 +12,7 @@ var textoValor2 = document.getElementById("textoValor2")
 
 
 
-let real = 5.42
+let real = 5.34
 let dolar = 0.19
 
     if (selecaoCima == "dolar americano" && selecaoBaixo == "real brasileiro") {
