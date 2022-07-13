@@ -15,8 +15,8 @@ var textoValor2 = document.getElementById("textoValor2")
         })
 
 
-let real = USDBRL.
-let dolar = EURBRL.
+let dolar = moeda.USDBRL.high
+let euro = moeda.EURBRL.high
 
     if (selecaoCima == "dolar americano" && selecaoBaixo == "real brasileiro") {
         var calculo = valor * real
