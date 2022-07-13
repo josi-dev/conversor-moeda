@@ -2,18 +2,21 @@
 
 
 
-function converter() {
+async function converter() {
 var selecaoCima = document.getElementById("select-top").value
 var selecaoBaixo = document.getElementById("select-bottom").value
 var valor = document.getElementById("valor").value
 var textoValor1 = document.getElementById("textoValor1")
 var textoValor2 = document.getElementById("textoValor2")
 
+ 
+        let moeda = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL").then( function(resultado){
+            return resultado.json()
+        })
 
 
-
-let real = 5.34
-let dolar = 0.19
+let real = USDBRL.
+let dolar = EURBRL.
 
     if (selecaoCima == "dolar americano" && selecaoBaixo == "real brasileiro") {
         var calculo = valor * real
