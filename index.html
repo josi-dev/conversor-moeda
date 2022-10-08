@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&family=Roboto:wght@100&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de moeda</title>
+</head>
+<body>
+    
+    <div id="boxPrincipal">
+        <div id="boxTitle"><h1>Conversor de moeda</h1></div>
+        
+        <div id="boxDados">
+            <p class="text">Converter de:</p>
+            <select id="selecao1" onchange="mudanca()">
+                <option>(BRL) Real brasileiro</option>
+                <option>(USD) Dolar americano</option>
+                <option>(EUR) Euro</option>
+                <option>(ARS) Peso Argentino</option>
+                <option>(JPY) lene Japonês</option>
+                <option>(GBP) Libra Esterbina</option>
+                <option></option>
+                <option></option>
+            </select>
+            
+            
+            <p class="text">converter para:</p>
+            
+            <select id="selecao2" onchange="mudanca()">
+                <option>(USD) Dolar americano</option>
+                <option>(BRL) Real brasileiro</option>
+                <option>(EUR) Euro</option>
+                <option>(ARS) Peso Argentino</option>
+                <option>(JPY) lene Japonês</option>
+                <option>(GBP) Libra Esterbina</option>
+                <option></option>
+                <option></option>
+            </select>
+            
+            <p id="valor">Valor:</p>
+            <input type="number" name="" id="valor-moeda">
+            <div id="boxButton" onclick="converter()"><legend id="textButton">Converter</legend></div>
+        </div>
+        
+        
+        <div id="boxResultado">
+            <div class="boxBandeiras">
+                <img id="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsGdQR17__6A580d4sseAFE8cgO_V1n42PxqHpmCr3GLtWYZht86ACVgY&s=10" width="30%">
+                <p id="money1">R$ 0,00</p>
+            </div>
+            
+            <div class="boxBandeiras">
+                <img id="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc49x2OqldtRPR5Tb9fn8N_ww7UqA4O-5lA-VzETeGwu_uU4fBtILvRD4&s=10" width="30%">
+                <p id="money2">$ 0,00</p>
+            </div>
+        </div>
+        
+        
+        
+        
+    </div>
+    
+    
+</body>
+<script src="./script.js"></script>
+</html>
