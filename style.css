@@ -1,0 +1,66 @@
+#boxTitle{
+    text-align: center;
+    border-bottom: 1px solid #430a81;
+}
+#boxPrincipal{
+    border: 1px solid #430a81;
+    width: 85%;
+    margin-left: 8%;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+select{
+    height: 25px;
+    width: 85%;
+    border-radius: 4px;
+    border: 1px solid #430a81;
+}
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 180%;
+}
+#boxDados{
+    margin-left: 11%;
+}
+.text{
+    margin-top: 9%;
+}
+#valor{
+    margin-top: 9%;
+}
+#valor-moeda{
+    width: 83%;
+    height: 23px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: none;
+}
+#boxResultado{
+    margin-top: 20%;
+    border: 1px solid #430a81;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+.boxBandeiras{
+   margin-top: 5%;
+}
+#boxButton{
+    border: 1px solid #430a81;
+    width: 70%;
+    height: 28px;
+    margin: 15% 0px 0px 8%;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #430a81;
+}
+#textButton{
+    margin-top: 2%;
+    color: white;
+}
+#boxButton:hover{
+    background-color: blue;
+}
