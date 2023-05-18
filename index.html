@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de moeda</title>
+</head>
+<body>
+    
+    <div id="conteiner">
+        <div>
+            <h1>Conversor de moeda</h1>
+        </div>
+        
+        <div id="boxOpcoes">
+            <p>converter de:</p>
+            <select onchange="troca()" id="selecao1">
+                <option>BRL Real Brasileiro</option>
+                <option>USD Dólar americano</option>
+                <option>ARS Peso Argentino</option>
+                <option>EUR Euro</option>
+                <option></option>
+                <option></option>
+            </select>
+            
+            <p>converter para:</p>
+            <select onchange="troca()" id="selecao2">
+                <option>BRL Real Brasileiro</option>
+                <option>USD Dólar americano</option>
+                <option>ARS Peso Argentino</option>
+                <option>EUR Euro</option>
+                <option></option>
+            </select>
+            
+            
+            
+            <div id="boxBotao">
+                <input type="number" id="valor">
+                
+                <button onclick="calcular()">Converter</button>
+            </div>
+            
+        </div>
+        
+        
+        <div id="boxResultados">
+            
+            <div>
+                <img src="https://st.depositphotos.com/2274151/2437/i/380/depositphotos_24372663-stock-photo-brazil-flag-button.jpg" width="80">
+                <p id="resultado1">R$ 0,00</p>
+            </div>
+            
+            <div>
+                <img src="https://st.depositphotos.com/2274151/2437/i/380/depositphotos_24372663-stock-photo-brazil-flag-button.jpg" width="80">
+                <p id="resultado2">R$ 0,00</p>
+            </div>
+            
+        </div>
+        
+        
+        
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>

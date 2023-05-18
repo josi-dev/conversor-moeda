@@ -1,0 +1,56 @@
+
+* {
+    font-family: arial;
+}
+
+#conteiner {
+    border: 2px solid purple;
+    margin: 0 2vh 0 2vh;
+    border-radius: 5px;
+    padding-bottom: 6vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5vh;
+}
+
+#boxOpcoes {
+    padding-left: 3vh;
+}
+
+#boxOpcoes select {
+    width: 90%;
+    height: 5vh;
+    border: 2px solid #898989;
+    border-radius: 5px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#valor {
+    display: block;
+    height: 4vh;
+    border: 2px solid #898989;
+    border-radius: 5px;
+}
+
+#boxBotao {
+    display: grid;
+    justify-content: center;
+    margin-right: 5vh;
+    margin-top: 7vh;
+}
+
+button {
+    height: 5vh;
+    margin-top: 6vh;
+    border: 2px solid #898989;
+    border-radius: 5px;
+}
+
+#boxResultados {
+    text-align: center;
+    margin-top: 10vh;
+}
+
