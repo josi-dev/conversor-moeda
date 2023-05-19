@@ -1,11 +1,12 @@
 
 * {
     font-family: arial;
+    margin: 0;
 }
 
 #conteiner {
     border: 2px solid purple;
-    margin: 0 2vh 0 2vh;
+    margin: 1vh 2vh 0 2vh;
     border-radius: 5px;
     padding-bottom: 6vh;
 }
@@ -13,10 +14,12 @@
 h1 {
     text-align: center;
     font-size: 5vh;
+    line-height: 15vh;
 }
 
 #boxOpcoes {
     padding-left: 3vh;
+    margin-top: 9vh;
 }
 
 #boxOpcoes select {
@@ -24,8 +27,8 @@ h1 {
     height: 5vh;
     border: 2px solid #898989;
     border-radius: 5px;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 #valor {
@@ -54,3 +57,38 @@ button {
     margin-top: 10vh;
 }
 
+#boxResultados div {
+    margin-bottom: 5vh;
+}
+
+#boxTitle {
+    background-color: #2f21ca;
+    height: 15vh;
+    border-radius: 2px;
+}
+
+
+
+
+@media screen and (orientation: landscape){
+    
+    h1 {
+        font-size: 8vh;
+    }
+    
+    #conteiner {
+        margin: 0 25% 0 25%;
+    }
+    
+    button, #valor, #boxOpcoes select {
+        height: 10vh;
+    }
+    
+    #boxTitle {
+    background-color: #2f21ca;
+    height: 20vh;
+    border-radius: 2px;
+    }
+    
+    
+}
